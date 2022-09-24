@@ -4,11 +4,9 @@ let negative = 0;
 let sum = 0;
 for (let i = 0; i < temp.length; i++) {
   if (temp[i] > 0) {
-    //  document.write(" +" + temp[i]);
     positive++;
     document.write("Плюсовая температура: " + positive + "<br>");
   } else if (temp[i] < 0) {
-    //   document.write(temp[i] + " ");
     negative++;
     document.write("Минусовая температура: " + negative + "<br>");
   }
